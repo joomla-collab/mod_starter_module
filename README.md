@@ -1,4 +1,4 @@
-### Starter Module
+# Starter Module
 
 A basic installable module that does nothing.  It just saves you time when you go to create a module.  It's not meant to blow your mind, it's just meant to be a good starting point for you to build your module from.
 
@@ -10,11 +10,11 @@ The next steps would be:
 
 3. Call those variables and do something with them. Which probably means building out some HTML first to lay them out.
 
-# Step 1.  Install and test it works first.
+## Step 1.  Install and test it works first.
 
 Install the module and check that it installs properly.  If it does, open the module and see the field that is included with it.  Fill it in, save and close.  Open the module again, check that the value saved.  Already you can see you have a simple working module.  You can assign it, you can go to advanced and change template, you can publish and unpublish it.  You can do all the things a module should do.  
 
-# Step 2.  Create a new field in the back end.
+## Step 2.  Create a new field in the back end.
 
 Add a new field.  Open up mod_starter_module.xml
 
@@ -28,7 +28,7 @@ Put the cursor below it and insert a new text field by copying and pasting this
 
 Zip up your files and reinstall them.  Go to your module and check you see your fields.  You will see they look broken.  I think it's important to see that so you can understand whenever you see this error exactly what is happening.  It will help you to trouble shoot but it will also help you to report issues to other developers.  Go ahead and have a look before moving on.
 
-# Step 3.  Create a new language string.
+## Step 3.  Create a new language string.
 
 Open the language folder and open en-GB.mod_starter_module.ini.
 
@@ -44,7 +44,7 @@ Zip up your files and reinstall.  Open the back end and check you see your new l
 
 I think it's a good idea to use the format that I followed, don't be tempted to use abbrieviations as it will help you to troubleshoot later on when trying to work out what a string does.  It will also really help other developers if you collaborate or hire people.  Or if they want to add to your code.  
 
-# Step 4
+## Step 4
 
 Add a media field.  Copy this to your XML file.
 
@@ -60,7 +60,7 @@ Open the module and you should see your new fields.  Try using them, save and cl
 
 If there's a problem check Joomla! Stack Exchange.  https://joomla.stackexchange.com/
 
-# Step 5
+## Step 5
 
 Now you have your fields, but nothing is showing up on the front end.  Because we haven't told it to.  Go to the bootstrap2.php template in the /tmpl/ folder.  In the Joomla! Administrator open your module and go to advanced.  Make sure the template is set to Bootstrap2.
 
@@ -70,11 +70,7 @@ Copy that code but replace the information with the names you created for your f
 
 Check you see your fields on the front end of your site.
 
-# Step 6
-
-Have a play around and see where you get to.  There's lots of cool things you can do.  Why not try creating a simple heading and paragraph with an image on the left or right.  All you need to do is understand HTML.  If you are using Bootstrap2 which ships with Joomla! you can simply use Bootstrap classes so you won't even have to write any CSS at all.  Isn't that neat?  If you do want to add more CSS you can simply open the media/css/mod_starter_module.css file and add it there.
-
-# Step 7
+## Step 6
 
 Rename the module to your own name.  You've started adding things, this isn't our module any more, it's even got your author name.  So you should rename it.  To do so you need to find and replace mod_starter_module EVERYWHERE in each file of the module.  I use PHP Storm which has a" preserve case" function.  If you use something else be sure to make sure all capitals remain capitals and any upper and lower case remain the same.
 
@@ -83,3 +79,7 @@ Once you've done that you need to rename the files.  Don't forget to leave the p
 Finally, rename the folder to your module name e.g "mod_your_module."
 
 Once done ZIP up your files and reinstall to make sure it all still works.  If you get an error message it means something has gone wrong.  Check all of the file names are renamed correctly, use this GitHub repository to compare the file names.  Then check every reference within the files are correct.
+
+## Step 7
+
+Have a play around and see where you get to.  There's lots of cool things you can do.  Why not try creating a simple heading and paragraph with an image on the left or right.  All you need to do is understand HTML.  If you are using Bootstrap2 which ships with Joomla! you can simply use Bootstrap classes so you won't even have to write any CSS at all.  Isn't that neat?  If you do want to add more CSS you can simply open the media/css/mod_starter_module.css file and add it there.
