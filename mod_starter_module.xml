@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+	<name>MOD_STARTER_MODULE</name>
+	<creationDate>17/08/2018</creationDate>
+	<author>Eoin Oliver</author>
+	<authorEmail>eoin@squareballoon.co.uk</authorEmail>
+	<authorUrl>https://www.squareballoon.co.uk</authorUrl>
+	<copyright>Copyright Square Balloon</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>MOD_STARTER_MODULE_XML_DESCRIPTION</description>
+
+	<files>
+		<filename module="mod_starter_module">mod_starter_module.php</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<folder>media</folder>
+		<filename>mod_starter_module.xml</filename>
+	</files>
+
+	<media destination="mod_starter_module" folder="media">
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+
+	<!-- Update servers -->
+	<updateservers>
+		<server type="extension" priority="1" name="mod_starter_module">https://www.example.com/mod_starter_module_updates.xml</server>
+	</updateservers>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="domain"
+					type="url"
+					label="MOD_STARTER_MODULE_URL_LABEL"
+					description="MOD_STARTER_MODULE_URL_DESCRIPTION"
+					hint="https://www.example.com"
+					filter="url"
+					validate="url"
+				/>
+			</fieldset>
+			<fieldset
+					name="advanced">
+				<field
+						name="moduleclass_sfx"
+						type="text"
+						label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+						description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

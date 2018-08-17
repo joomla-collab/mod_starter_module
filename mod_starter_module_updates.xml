@@ -1,0 +1,16 @@
+<updates>
+	<update>
+		<name>Articles Intro</name>
+		<description>This is mod_articles_intro</description>
+		<element>mod_articles_intro</element>
+		<type>module</type>
+		<version>1.1.2</version>
+		<downloads>
+			<downloadurl type="full" format="zip">http://www.squareballoon.co.uk/downloads/joomla/modules/mod_articles_intro/mod_articles_intro.zip</downloadurl>
+		</downloads>
+		<maintainer>Square Balloon</maintainer>
+		<maintainerurl>http://www.squareballoon.co.uk</maintainerurl>
+		<targetplatform name="joomla" version="3.[0123456789]"/>
+		<client>site</client>
+	</update>
+</updates>
