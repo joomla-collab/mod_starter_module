@@ -44,7 +44,7 @@ Zip up your files and reinstall.  Open the back end and check you see your new l
 
 I think it's a good idea to use the format that I followed, don't be tempted to use abbrieviations as it will help you to troubleshoot later on when trying to work out what a string does.  It will also really help other developers if you collaborate or hire people.  Or if they want to add to your code.  
 
-## Step 4
+## Step 4.  Add a field that opens the media manager.
 
 Add a media field.  Copy this to your XML file.
 
@@ -60,7 +60,7 @@ Open the module and you should see your new fields.  Try using them, save and cl
 
 If there's a problem check Joomla! Stack Exchange.  https://joomla.stackexchange.com/
 
-## Step 5
+## Step 5.  Make your fields show up on the front end.
 
 Now you have your fields, but nothing is showing up on the front end.  Because we haven't told it to.  Go to the bootstrap2.php template in the /tmpl/ folder.  In the Joomla! Administrator open your module and go to advanced.  Make sure the template is set to Bootstrap2.
 
@@ -70,7 +70,7 @@ Copy that code but replace the information with the names you created for your f
 
 Check you see your fields on the front end of your site.
 
-## Step 6
+## Step 6.  Rename the module, it's yours now.  Good job.
 
 Rename the module to your own name.  You've started adding things, this isn't our module any more, it's even got your author name.  So you should rename it.  To do so you need to find and replace mod_starter_module EVERYWHERE in each file of the module.  I use PHP Storm which has a" preserve case" function.  If you use something else be sure to make sure all capitals remain capitals and any upper and lower case remain the same.
 
@@ -80,6 +80,6 @@ Finally, rename the folder to your module name e.g "mod_your_module."
 
 Once done ZIP up your files and reinstall to make sure it all still works.  If you get an error message it means something has gone wrong.  Check all of the file names are renamed correctly, use this GitHub repository to compare the file names.  Then check every reference within the files are correct.
 
-## Step 7
+## Step 7.  It's up to you now.
 
 Have a play around and see where you get to.  There's lots of cool things you can do.  Why not try creating a simple heading and paragraph with an image on the left or right.  All you need to do is understand HTML.  If you are using Bootstrap2 which ships with Joomla! you can simply use Bootstrap classes so you won't even have to write any CSS at all.  Isn't that neat?  If you do want to add more CSS you can simply open the media/css/mod_starter_module.css file and add it there.
