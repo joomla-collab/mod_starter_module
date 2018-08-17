@@ -2,9 +2,9 @@
 <extension type="module" version="3.8" client="site" method="upgrade">
 	<name>MOD_STARTER_MODULE</name>
 	<creationDate>17/08/2018</creationDate>
-	<author>Eoin Oliver</author>
-	<authorEmail>eoin@squareballoon.co.uk</authorEmail>
-	<authorUrl>https://www.squareballoon.co.uk</authorUrl>
+	<author>YOUR NAME</author>
+	<authorEmail>YOUR EMAIL</authorEmail>
+	<authorUrl>https://www.YOURWEBSITE.COM</authorUrl>
 	<copyright>Copyright Square Balloon</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<version>1.0</version>
