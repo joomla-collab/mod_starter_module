@@ -2,13 +2,11 @@
 
 A basic installable module that does nothing.  It just saves you time when you go to create a module.  It's not meant to blow your mind, it's just meant to be a good starting point for you to build your module from.
 
-The next steps would be:
+If you know how to build your own module simply start using it.  Hopefully it's a great starting point, if you think it can be improved raise an issue on GitHub right here and we'll try to be better.
 
-1. Add your own fields using this as a guide: https://docs.joomla.org/Standard_form_field_types.  This will mean you can add text inputs, radios, select dropdowns etc.  Don't forget you should be using language strings in all of the descriptions etc.  Basically everything except the name of the field.
+## Newcomer?  Don't fret.
 
-2. Register those fields as variables in your bootstrap2.php file.
-
-3. Call those variables and do something with them. Which probably means building out some HTML first to lay them out.
+Here's a short tutorial on what you can do with this module.  It will take you from installtion through to making the module your own.  You won't need any coding skills at all to create your very first Joomla! module.  Give it a go, it's EASY!
 
 ## Step 1.  Install and test it works first.
 
